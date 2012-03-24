@@ -13,7 +13,7 @@
 #include "desteer/controller/SimpleSteeringController.hpp"
 
 using namespace std;
-using namespace LikeMagic::Backends::Io;
+using namespace Iocaste::LikeMagicAdapters;
 using namespace desteer::controller;
 
 namespace Bindings { namespace DESteer {
