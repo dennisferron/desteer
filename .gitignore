@@ -74,3 +74,4 @@ doxygen/*
 
 *.depend
 DESteer.depend
+.DS_Store
