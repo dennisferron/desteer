@@ -78,7 +78,7 @@
 			<Add option="-Wno-deprecated" />
 			<Add option="-Wno-ignored-qualifiers" />
 			<Add option="-DUSE_DELEGATES_HACK" />
-			<Add directory="..\..\Common\boost" />
+			<Add directory="..\..\Common\boost_1_49_0" />
 			<Add directory="..\..\LikeMagic\Include" />
 			<Add directory="Include" />
 			<Add directory="..\..\desteer\include" />
