@@ -7,6 +7,8 @@ namespace entity {
 class IEntitySpace
 {
     public:
+    virtual ~IEntitySpace();
+
 	virtual irr::core::vector3df SideVector() const = 0;
 	virtual void SetSideVector(irr::core::vector3df side) = 0;
 

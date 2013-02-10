@@ -13,6 +13,8 @@ namespace controller{
 class ISteeringController
 {
     public:
+    virtual ~ISteeringController();
+
     /*!
         Returns the calculated sum of all the behaviors this controller is using.
     */

@@ -6,6 +6,8 @@ namespace entity {
 
 class IBaseEntity {
 public:
+    virtual ~IBaseEntity();
+
 	virtual irr::core::vector3df Position() const = 0;
 	virtual void SetPosition(irr::core::vector3df position) = 0;
 
