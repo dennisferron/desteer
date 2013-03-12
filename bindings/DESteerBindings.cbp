@@ -10,7 +10,7 @@
 				<Option platforms="Unix;" />
 				<Option output="libDESteerBindings" prefix_auto="1" extension_auto="1" />
 				<Option working_dir="" />
-				<Option object_output="obj\Release\" />
+				<Option object_output="obj/Release/" />
 				<Option type="2" />
 				<Option compiler="gcc" />
 				<Option createDefFile="1" />
@@ -26,7 +26,7 @@
 				<Option platforms="Unix;" />
 				<Option output="libDESteerBindings" prefix_auto="1" extension_auto="1" />
 				<Option working_dir="" />
-				<Option object_output="obj\Debug\" />
+				<Option object_output="obj/Debug/" />
 				<Option type="2" />
 				<Option compiler="gcc" />
 				<Option createDefFile="1" />
@@ -39,7 +39,7 @@
 				<Option platforms="Mac;" />
 				<Option output="libDESteerBindings-Mac" prefix_auto="1" extension_auto="1" />
 				<Option working_dir="" />
-				<Option object_output="obj\Debug-Mac\" />
+				<Option object_output="obj/Debug-Mac/" />
 				<Option type="2" />
 				<Option compiler="gcc" />
 				<Option createDefFile="1" />
@@ -56,7 +56,7 @@
 				<Option platforms="Windows;" />
 				<Option output="libDESteerBindings-Windows" prefix_auto="1" extension_auto="1" />
 				<Option working_dir="" />
-				<Option object_output="obj\Debug-Windows\" />
+				<Option object_output="obj/Debug-Windows/" />
 				<Option type="2" />
 				<Option compiler="gcc" />
 				<Compiler>
@@ -80,24 +80,24 @@
 			<Add option="-Wno-deprecated" />
 			<Add option="-Wno-ignored-qualifiers" />
 			<Add option="-DUSE_DELEGATES_HACK" />
-			<Add directory="..\..\Common\boost_1_49_0" />
-			<Add directory="..\..\LikeMagic\Include" />
+			<Add directory="../../GameBindings/Common/boost_1_49_0" />
+			<Add directory="../../GameBindings/LikeMagic/Include" />
 			<Add directory="Include" />
-			<Add directory="..\..\desteer\include" />
-			<Add directory="..\..\Iocaste\Include" />
-			<Add directory="..\..\Iocaste\iovm\source" />
-			<Add directory="..\..\Iocaste\basekit\source" />
-			<Add directory="..\..\Iocaste\garbagecollector\source" />
-			<Add directory="..\..\Iocaste\Include\Iocaste\CShims" />
+			<Add directory="../../desteer/include" />
+			<Add directory="../../GameBindings/Iocaste/Include" />
+			<Add directory="../../GameBindings/Iocaste/iovm/source" />
+			<Add directory="../../GameBindings/Iocaste/basekit/source" />
+			<Add directory="../../GameBindings/Iocaste/garbagecollector/source" />
+			<Add directory="../../GameBindings/Iocaste/Include/Iocaste/CShims" />
 		</Compiler>
-		<Unit filename="Include\Bindings\DESteer\Bindings.hpp" />
-		<Unit filename="Include\Bindings\DESteer\Protos.hpp" />
-		<Unit filename="Include\Bindings\DESteer\ScriptedBaseEntity.hpp" />
-		<Unit filename="Include\Bindings\DESteer\ScriptedEntitySpace.hpp" />
-		<Unit filename="Include\Bindings\DESteer\ScriptedMobileEntity.hpp" />
-		<Unit filename="Script\DESteerBindings.io" />
-		<Unit filename="Source\Bindings.cpp" />
-		<Unit filename="Source\Protos.cpp" />
+		<Unit filename="Include/Bindings/DESteer/Bindings.hpp" />
+		<Unit filename="Include/Bindings/DESteer/Protos.hpp" />
+		<Unit filename="Include/Bindings/DESteer/ScriptedBaseEntity.hpp" />
+		<Unit filename="Include/Bindings/DESteer/ScriptedEntitySpace.hpp" />
+		<Unit filename="Include/Bindings/DESteer/ScriptedMobileEntity.hpp" />
+		<Unit filename="Script/DESteerBindings.io" />
+		<Unit filename="Source/Bindings.cpp" />
+		<Unit filename="Source/Protos.cpp" />
 		<Extensions>
 			<code_completion />
 			<debugger />
